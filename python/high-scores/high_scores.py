@@ -10,5 +10,5 @@ def personal_best(scores: List[int]) -> int:
 
 
 def personal_top_three(scores: List[int]) -> List[int]:
-    sortedScores = sorted(scores.copy(), reverse=True)
+    sortedScores = sorted(scores, reverse=True)
     return sortedScores[:3]
