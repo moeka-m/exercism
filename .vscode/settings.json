@@ -6,6 +6,7 @@
     "python.testing.nosetestsEnabled": false,
     "python.testing.pytestEnabled": true,
     "python.analysis.extraPaths": [
-        "python/matrix"
+        "python/matrix",
+        "python/series"
     ]
 }
