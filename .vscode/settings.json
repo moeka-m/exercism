@@ -10,6 +10,7 @@
         "python/series",
         "python/isbn-verifier",
         "python/pangram",
-        "python/hamming"
+        "python/hamming",
+        "python/armstrong-numbers"
     ]
 }
