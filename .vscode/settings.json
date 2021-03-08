@@ -13,6 +13,7 @@
         "python/hamming",
         "python/armstrong-numbers",
         "python/difference-of-squares",
-        "python/isogram"
+        "python/isogram",
+        "python/hangman"
     ]
 }
