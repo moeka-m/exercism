@@ -1,9 +1,5 @@
-import re
-
-
 def is_isogram(string: str) -> bool:
-    allow_pattern = "[- ]"
-    target = re.sub(allow_pattern, "", string).lower()
+    target = [c.lower() for c in string if c.isalpha()]
 
     if len(target) == len(set(target)):
         return True
