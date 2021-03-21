@@ -14,6 +14,7 @@
         "python/armstrong-numbers",
         "python/difference-of-squares",
         "python/isogram",
-        "python/hangman"
+        "python/hangman",
+        "python/rational-numbers"
     ]
 }
