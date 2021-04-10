@@ -15,6 +15,7 @@
         "python/difference-of-squares",
         "python/isogram",
         "python/hangman",
-        "python/rational-numbers"
+        "python/rational-numbers",
+        "python/twelve-days"
     ]
 }
