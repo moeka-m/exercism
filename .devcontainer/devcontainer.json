@@ -1,0 +1,10 @@
+{
+    "name": "Bash",
+	"dockerFile": "Dockerfile",
+	"extensions": [
+		"rogalmic.bash-debug",
+		"mads-hartmann.bash-ide-vscode",
+		"jetmartin.bats",
+		"timonwong.shellcheck"
+	],
+}
