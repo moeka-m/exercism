@@ -7,6 +7,17 @@
         {
             "type": "bashdb",
             "request": "launch",
+            "name": "Bash-Debug resistor_color_duo",
+            "cwd": "${workspaceFolder}",
+            "program": "${command:SelectScriptName}",
+            "args": [
+                "blue",
+                "gray"
+            ]
+        },
+        {
+            "type": "bashdb",
+            "request": "launch",
             "name": "Bash-Debug (simplest configuration)",
             "terminalKind": "integrated",
             "program": "${file}"
