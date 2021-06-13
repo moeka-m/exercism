@@ -33,7 +33,7 @@ def recite(start_verse: int, end_verse: int) -> list[str]:
     if not (1 <= start_verse <= end_verse <= 12):
         raise ValueError("required: 1 <= start_verse <= end_verse <= 12")
 
-    ret: list[str] = []
+    ret = []
     for i in range(start_verse, end_verse + 1):
         ret.append(_recite_single(i))
 
@@ -41,14 +41,13 @@ def recite(start_verse: int, end_verse: int) -> list[str]:
 
 
 def _recite_single(verse: int) -> str:
-    recite_str: list[str] = []
+    recite_str = []
     recite_str.append(START_SINGING.format(ORDINAL_DICT.get(verse)))
     recite_str.append(_phrases_join(PHRASE_LIST[verse - 1 :: -1]))
     return " ".join(recite_str)
 
 
 def _phrases_join(phrases: list[str]) -> str:
-    assert 0 < len(phrases) <= 12
     if len(phrases) > 1:
         phrases[-1] = "and " + phrases[-1]
     return ", ".join(phrase for phrase in phrases) + "."
